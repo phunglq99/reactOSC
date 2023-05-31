@@ -22,7 +22,9 @@
 }
 
 .new-expense__actions {
-    text-align: right;
+    display: flex;
+    justify-content: end;
+    gap: 1rem;
 }
 
 .new-expense__actions button {
